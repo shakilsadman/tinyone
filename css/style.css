@@ -1,0 +1,249 @@
+
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+/* Header start*/
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.header-section{
+    background-color: #FCDB00;
+    overflow: hidden;
+    padding: 15px 0;
+
+}
+
+.logo{
+    padding-top: 5px;
+    float: left;
+    width: 22%;
+
+}
+.logo a{}
+
+}
+.logo a img{
+    float: left;
+}
+
+.menu-tinyone{
+    width: 70%;
+    float: right;
+}
+.menu-tinyone ul{
+    list-style: none;
+    float: right;
+}
+.menu-tinyone ul li{
+    float: left;
+}
+.menu-tinyone ul li a{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 30px;
+    color: black;
+}
+
+.menu-tinyone ul li:last-child a{
+    margin-right: 0;
+}
+
+.menu-tinyone ul li a:hover{
+    color: gray;
+}
+
+/* Header end */
+
+/* Banner Start */
+.banner{
+    background-color: #FCDB00;
+}
+.b_content{
+    overflow: hidden;
+    padding: 100px 0;
+}
+.b_left{
+    width: 30%;
+    float: left;
+}
+.b_left h1{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+.b_left h3{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #313841;
+}
+.b_left p{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #555555;
+    line-height: 25px;
+}
+.b_icons{}
+.b_icons ul{
+    overflow: hidden;
+    margin-left: -40px;
+    margin-top: 40px;
+}
+.b_icons ul li{
+    float: left;
+    list-style: none;
+}
+.b_icons ul li a{
+    margin-right: 30px;
+}
+.b_icons ul li a img{}
+
+.b_right{
+    width: 40%;
+    float: right;
+}
+.b_right img{}
+/* Banner End */
+/* Feature Start */
+.feature{
+    padding: 100px 0;
+}
+.f_content{
+    width: 65%;
+    text-align: center;
+    margin: 0 auto;
+}
+.f_content h1{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+.f_content p{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #313841;
+}
+/* Feature End */
+
+/* Services Start */
+.s_content{
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+.single{
+    margin-right: 3%;
+    overflow: hidden;
+    float: left;
+    width: 30%;
+    text-align: left;
+    box-shadow: 0.1rem 0.3rem 1rem 0 rgb(0 0 0 / 10%);
+    padding: 50px 30px;
+    box-sizing: border-box;
+    margin-bottom: 24px;
+}
+.single_left{
+    width: 15%;
+    float: left;
+}
+.single_left img{
+    width: 100%;
+}
+.single_right{
+    width: 70%;
+    float: right;
+}
+.single_right h2{
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-weight: 400;
+}
+.single_right p{
+    line-height: 25px;
+    color: #555555;
+}
+/* Services End */
+/* footer Start */
+/* footer top start */
+.footer{
+    background-color: #010101;
+    padding: 100px 0;
+}
+.fo_content{
+    text-align: center;
+}
+.fo_top{
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+}
+.fo_top h1{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #fcdb00;
+}
+.fo_top p{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #898989;
+    margin: 40px 0;
+}
+.fo_form{}
+.fo_form input{
+    width: 60%;
+    padding: 16px 0 16px 30px;
+    border-radius: 5px;
+    color: #898989;
+    border: none;
+    outline: 0;
+}
+.fo_form button{
+    margin-left: 20px;
+    padding: 13px 40px;
+    font-family: PTSans-Bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fcdb00;
+    border-color: #fcdb00;
+    cursor: pointer;
+}
+.fo_icons{
+    text-align: center;
+    width: 300px;
+    margin: 30px auto;
+}
+.fo_icons ul{
+    list-style: none;
+    overflow: hidden;
+    
+
+}
+.fo_icons ul li{
+    float: left;
+    margin: 0 10px;
+}
+.fo_icons ul li a{
+    
+}
+.fo_icons ul li a img{
+    width: 100%;
+}
+
+/* footer top end */
+/* footer End */
